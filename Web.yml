@@ -1,0 +1,14 @@
+---
+-
+ hosts: testgroup
+
+ tasks:
+         - name: Installing Window web Features
+           win_feature:
+            name: Web-Server
+            state: present
+
+         
+        
+
+...
